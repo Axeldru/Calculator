@@ -1,0 +1,93 @@
+body{
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+
+.title h1 {
+    color: aliceblue;
+}
+
+.centercolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.centerrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.calculator {
+    border: aliceblue solid 1px  ;
+    background-color:#2C5364;
+    
+}
+
+.answerInterface {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    height: 10px;
+    color: aliceblue;
+    font-size: 26px;
+    word-wrap:break-word;
+    
+}
+
+.firstRow,.secondRow,.thirdRow,.fourthRow {
+
+    text-align: center;
+    font-size: 23px;
+    
+
+
+
+}
+#ac, #del, #leftp, #rightp,#first, #second, #third, #fourth, #fifth, #sixth, #seventh, #eighth, #nineth, #tenth, #eleventh, #twelfth, #thirteenth, #fourteenth, #fifteenth, #sixteenth{
+    font-size: 23px;
+    border: none;
+    background-color:#E07E1F;
+    cursor: pointer;
+    min-width: 100px;
+    min-height: 70px;
+ 
+}
+
+
+.acdel{
+    align-items: center;
+    
+}
+#inputtext{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: end;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    width: 98%;
+    padding: 4px;
+    margin-bottom: 20px;
+
+}
